@@ -1,0 +1,8 @@
+{
+  "name": "Cãoder",
+  "description": "Um aplicativo de relacionamento estilo Tinder para conectar cães a novos lares amorosos, com chat, áudio e vídeo.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

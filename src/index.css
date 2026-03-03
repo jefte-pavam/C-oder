@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-primary: #FF6B6B;
+  --color-secondary: #4ECDC4;
+  --color-accent: #FFE66D;
+  --color-warm: #F7FFF7;
+  --color-dog-brown: #8D6E63;
+}
+
+@layer base {
+  body {
+    @apply bg-warm text-slate-800 font-sans;
+  }
+}
+
+.tinder-card {
+  @apply absolute w-full h-full rounded-2xl overflow-hidden shadow-xl bg-white cursor-grab active:cursor-grabbing;
+}
+
+.gradient-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%);
+}
+
